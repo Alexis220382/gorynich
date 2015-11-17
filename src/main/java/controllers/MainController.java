@@ -31,7 +31,6 @@ public class MainController {
         }
 
         if (request.getParameter("name").length() != 0
-                && request.getParameter("email").length() != 0
                 && request.getParameter("phone").length() != 0
                 && request.getParameter("message").length() != 0){
 
@@ -61,7 +60,6 @@ public class MainController {
                 msg.setSubject("У Вас новый заказ");
                 msg.setSentDate(new Date());
                 msg.setText("Автор: " + request.getParameter("name")
-                        + "\n\nE-mail: " + request.getParameter("email")
                         + "\n\nТелефон: " + request.getParameter("phone")
                         + "\n\nТекст сообщения:\n\n " + request.getParameter("message"));
                 Transport.send(msg);

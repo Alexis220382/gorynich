@@ -1,6 +1,6 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <title>Crystal Clean</title>
   <link rel="shortcut icon" href="images/diamond_380_346.gif">
@@ -20,7 +20,7 @@
   <script type="text/javascript" src="js/html5.js"></script>
   <![endif]-->
 </head>
-<body id="page4">
+<body id="page2">
 <div class="extra">
   <div class="body1">
     <div class="main">
@@ -39,8 +39,8 @@
           <ul class="menu">
             <li><a href="main.jsp">Главная</a></li>
             <%--<li><a href="about.jsp">О нас</a></li>--%>
-            <li><a href="services.jsp">Услуги</a></li>
-            <li class="menu_active"><a href="testimonials.jsp">Отзывы</a></li>
+            <li class="menu_active"><a href="services.jsp">Услуги</a></li>
+            <li><a href="testimonials.jsp">Отзывы</a></li>
             <li><a href="price.jsp">Прайс лист</a></li>
             <li><a href="contacts.jsp">Заказать</a></li>
           </ul>
@@ -56,36 +56,36 @@
       <section id="content">
         <div class="line1">
           <article class="col1">
-            <div id="text2">Отзывы о нашей работе</div>
-            <div class="wrapper line2">
-              <div class="under wrapper">
-                <article class="cols">
-                  <figure class="left marg_right1 pad_bot1"><img src="images/page4_your_face_62_62.jpg" alt=""></figure>
-                  <p class="font1 marg_top1">Somebody </p>
-                  <p class="color1">Домохозяйка</p>
-                  <p align="justify">Мы с мужем живем в большом загородном доме и нам очень тяжело содержать самим в чистоте придворовую территорию.</p>
-                </article>
-                <article class="cols pad_left1">
-                  <figure class="left marg_right1 pad_bot1"><img src="images/page4_your_face_62_62.jpg" alt=""></figure>
-                  <p class="font1 marg_top1">Somebody </p>
-                  <p class="color1">Бизнесмен</p>
-                  <p align="justify">Мне надо, чтобы мои сотрудники работали всега в чистоте. Поэтому он пользуется постоянными услугами</p>
-                </article>
-              </div>
-              <div class="wrapper">
-                <article class="cols">
-                  <figure class="left marg_right1 pad_bot1"><img src="images/page4_your_face_62_62.jpg" alt=""></figure>
-                  <p class="font1 marg_top1">Somebody </p>
-                  <p class="color1">Директор СТО</p>
-                  <p align="justify">Тут все время грязь.</p>
-                </article>
-                <article class="cols pad_left1">
-                  <figure class="left marg_right1 pad_bot1"><img src="images/page4_your_face_62_62.jpg" alt=""></figure>
-                  <p class="font1 marg_top1">Somebody </p>
-                  <p class="color1">Бухгалтер</p>
-                  <p align="justify">Мы с мужем делали дома ремонт.</p>
-                </article>
-              </div>
+            <div id="text2">Уборка квартир, домов</div>
+            <div id="text5">Химчистка ковровых покрытий</div>
+            <div class="wrapper pad_bot3">
+              <p align="justify">Сейчас трудно представить себе ситуацию, когда в какой либо квартире нет ковра или
+                коврового покрытия. Этот мягкий и теплый предмет интерьера навсегда занял свое место в каждой
+                квартире, коттедже или офисе.</p>
+              <p align="justify">Каждая хозяйка считает, что знает как сохранить ковры в чистоте и дольше содержать их
+                первозданное состояние. Все просто – необходимо ежедневно производить сухую чистку или
+                попросту пылесосить. Данная уборка не осуществляет полную чистку и постепенно грязь
+                накапливается внутри, создавая благоприятную обстановку для жизни разного рода пылевых
+                клещей.</p>
+              <p align="justify">Со временем ковры теряют первоначальную расцветку, ворс сбивается и данное покрытие
+                вместо того, чтобы приносить удовольствие и радовать глаз, начинает раздражать. К решению этой
+                проблемы каждая семья подходит с учетом своего финансового положения. Кто- то приходит к
+                выводу, что необходимо купить другой ковер, а старый выбросить или завезти на дачу. Но таких
+                людей очень и очень не много и в основном это далеко не богатые люди. Кто –то пытается
+                отмывать при помощи различных средств свои покрытия. Но в основном и этот способ не
+                приносит необходимого результата, потому что нам не хватает как профессионального
+                оборудования , так и правильного подбора средств необходимых для качественной чистки наших
+                ковров.</p>
+              <p align="justify">Самым правильным и менее затратным (если считать покупку нового ковра) способом
+                чистки ковра является профессиональная химическая чистка профессиональным оборудованием с
+                правильным подбором химических средств. В данном случае вы получаете 100% результат не
+                тратя своих физических сил и нервных клеток.
+                Наши специалисты постоянно проходят профессиональное обучение, в своей работе
+                используют только профессиональное оборудование. Свою работу строят только на получение
+                максимального результата.</p>
+              <ul class="list1 left">
+                <li><a href="services.jsp">Вернуться к списку услуг</a></li>
+              </ul>
             </div>
           </article>
           <article class="col2 pad_left1">

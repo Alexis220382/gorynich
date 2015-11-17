@@ -1,6 +1,6 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <title>Crystal Clean</title>
   <link rel="shortcut icon" href="images/diamond_380_346.gif">
@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/reset.css" type="text/css">
   <link rel="stylesheet" href="css/layout.css" type="text/css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/send_form.css" type="text/css">
   <script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
   <script type="text/javascript" src="js/cufon-yui.js"></script>
   <script type="text/javascript" src="js/cufon-replace.js"></script>
@@ -19,7 +20,7 @@
   <script type="text/javascript" src="js/html5.js"></script>
   <![endif]-->
 </head>
-<body id="page5">
+<body id="page2">
 <div class="extra">
   <div class="body1">
     <div class="main">
@@ -40,8 +41,8 @@
             <%--<li><a href="about.jsp">О нас</a></li>--%>
             <li><a href="services.jsp">Услуги</a></li>
             <li><a href="testimonials.jsp">Отзывы</a></li>
-            <li><a href="price.jsp">Прайс лист</a></li>
-            <li class="menu_active"><a href="contacts.jsp">Заказать</a></li>
+            <li class="menu_active"><a href="price.jsp">Прайс лист</a></li>
+            <li><a href="contacts.jsp">Заказать</a></li>
           </ul>
         </nav>
         <div id="text1">
@@ -55,25 +56,13 @@
       <section id="content">
         <div class="line1">
           <article class="col1">
-            <div id="text2">Заказать</div>
-            <form id="ContactForm" action="/fastAnswer.form" method="post">
-              <div class="wrapper">
-                <div class="col_1">
-                  <p>Имя:</p>
-                  <p>Телефон:</p>
-                  <p>Сообщение:</p>
-                </div>
-                <div class="col_2">
-                  <input type="text" name="name" class="input" style="color: #7c8285" required value="Имя...">
-                  <input type="text" name="phone" class="input" style="color: #7c8285" required pattern="+375[0-9]+" value="Телефон...">
-                  <textarea cols="1" name="message" rows="1" style="color: #7c8285" required>Пример1: Необходимо сделать генеральную (послестроительную) уборку двух комнатной квартиры 61 кв.м. Пример2: Необходимо сделать химчистку (аква чистку) трехместного дивана белого цвета.</textarea>
-                </div>
-              </div>
-              <div class="wrapper">
-                <input type="submit" class="submit right" value="Отправить" />
-                <input type="reset" class="submit right" value="Очистить" />
-              </div>
-            </form>
+            <div id="text2" align="center">Цены на услуги «Crystal Clean»</div>
+            <div class="wrapper pad_bot3">
+              <p></p>
+              <p></p>
+              <p></p>
+              <p class="pad_bot1" align="center"><img src="images/page5_price.png"></p>
+            </div>
           </article>
           <article class="col2 pad_left1">
             <div id="text4">Наши работы</div>
@@ -98,19 +87,16 @@
                 </a>
               </figure>
             </div>
-            <%--<h2>Our Contacts</h2>--%>
-            <%--<p class="col_1">--%>
-              <%--Country:<br>--%>
-              <%--City:<br>--%>
-              <%--Telephone:<br>--%>
-              Email:
-            <%--</p>--%>
-            <%--<p class="col_2">--%>
-              <%--USA<br>--%>
-              <%--San Diego<br>--%>
-              <%--+354 5635600<br>--%>
-              <a href="mailto:ccleansd@gmail.com">ccleansd@gmail.com</a>
-            <%--</p>--%>
+            <form action="/fastAnswer.form" class="css3Form" method="post">
+              <div id="text3">Заказать</div>
+              <ul>
+                <li><input type="text" name="name" value="Ваше имя..."/></li>
+                <li><input type="text" name="phone" value="Телефон..."/></li>
+                <li><textarea name="message" rows="5">Пример1: Необходимо сделать генеральную (послестроительную) уборку двух комнатной квартиры 61 кв.м. Пример2: Необходимо сделать химчистку (аква чистку) трехместного дивана белого цвета.
+                                </textarea></li>
+              </ul>
+              <input type="submit" class="button" value="Отправить" />
+            </form>
           </article>
         </div>
       </section>
@@ -132,3 +118,6 @@
 <script type="text/javascript"> Cufon.now(); </script>
 </body>
 </html>
+
+
+

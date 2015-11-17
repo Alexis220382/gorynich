@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/reset.css" type="text/css">
   <link rel="stylesheet" href="css/layout.css" type="text/css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/send_form.css" type="text/css">
   <script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
   <script type="text/javascript" src="js/cufon-yui.js"></script>
   <script type="text/javascript" src="js/cufon-replace.js"></script>
@@ -15,7 +16,7 @@
   <script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
   <script type="text/javascript" src="js/gallery.js"></script>
   <!--[if lt IE 9]>
-  <script type="text/javascript" src="http://info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
+  <script type="text/javascript" src="js/ie6_script_other.js"></script>
   <script type="text/javascript" src="js/html5.js"></script>
   <![endif]-->
 </head>
@@ -29,19 +30,19 @@
           <img src="images/diamond_99_90.gif"><img src="images/crystal_clean_logo.jpg">
           <ul id="icons">
             <li><a href="#"><img src="images/Social_networks/facebook_22_22.gif" alt=""></a></li>
-            <li><a href="#"><img src="images/Social_networks/ok_22_22.gif" alt=""></a></li>
+            <li><a href="http://ok.ru/group/52637824581845"><img src="images/Social_networks/ok_22_22.gif" alt=""></a></li>
             <li><a href="http://vk.com/crystallclean"><img src="images/Social_networks/vk_22_22.gif" alt=""></a></li>
             <li><a href="#"><img src="images/Social_networks/twitter_22_22.gif" alt=""></a></li>
           </ul>
         </div>
         <nav>
           <ul class="menu">
-            <li><a href="index.jsp">Главная</a></li>
-            <li class="menu_active"><a href="about.jsp">О нас</a></li>
+            <li><a href="main.jsp">Главная</a></li>
+            <%--<li class="menu_active"><a href="about.jsp">О нас</a></li>--%>
             <li><a href="services.jsp">Услуги</a></li>
             <li><a href="testimonials.jsp">Отзывы</a></li>
-            <li><a href="#">Прайс лист</a></li>
-            <li><a href="contacts.jsp">Контакты</a></li>
+            <li><a href="price.jsp">Прайс лист</a></li>
+            <li><a href="contacts.jsp">Заказать</a></li>
           </ul>
         </nav>
         <div id="text1">
@@ -84,56 +85,34 @@
             <h5>Нажми что бы увеличить</h5>
             <div class="wrapper pad_bot1">
               <figure class="left marg_right2">
-                <a href="images/our_work/1.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Уборка после ремонта">
-                  <img src="images/our_work/1.JPG" width="88" alt="Sample image" >
+                <a href="images/our_work/car.jpg" rel="1" onclick="return jsiBoxOpen(this)" title="" />
+                <img src="images/our_work/car.jpg" width="132" alt="Sample image" />
                 </a>
-                <a href="images/our_work/2.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Химчистка салона">
-                  <img src="images/our_work/2.JPG" width="88" alt="Sample image" >
-                </a>
-                <a href="images/our_work/3.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Химчистка мягкой мебели">
-                  <img src="images/our_work/3.JPG" width="88" alt="Sample image" >
+                <a href="images/our_work/chair.jpg" rel="1" onclick="return jsiBoxOpen(this)" title="" />
+                <img src="images/our_work/chair.jpg" width="132" alt="Sample image" />
                 </a>
               </figure>
             </div>
             <div class="wrapper pad_bot1">
               <figure class="left marg_right2">
-                <a href="images/our_work/4.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Уборка после ремонта">
-                  <img src="images/our_work/4.JPG" width="88" alt="Sample image" >
+                <a href="images/our_work/kover_1_075.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="" />
+                <img src="images/our_work/kover_1_075.JPG" width="132" alt="Sample image"/>
                 </a>
-                <a href="images/our_work/5.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Химчистка салона">
-                  <img src="images/our_work/5.JPG" width="88" alt="Sample image" >
-                </a>
-                <a href="images/our_work/6.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Химчистка мягкой мебели">
-                  <img src="images/our_work/6.JPG" width="88" alt="Sample image" >
+                <a href="images/our_work/sofa.jpg" rel="1" onclick="return jsiBoxOpen(this)" title="" />
+                <img src="images/our_work/sofa.jpg" width="132" alt="Sample image" />
                 </a>
               </figure>
             </div>
-            <div class="wrapper pad_bot1">
-              <figure class="left marg_right2">
-                <a href="images/our_work/7.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Уборка после ремонта">
-                  <img src="images/our_work/7.JPG" width="88" alt="Sample image" >
-                </a>
-                <a href="images/our_work/8.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Химчистка салона">
-                  <img src="images/our_work/8.JPG" width="88" alt="Sample image" >
-                </a>
-                <a href="images/our_work/9.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Химчистка мягкой мебели">
-                  <img src="images/our_work/9.JPG" width="88" alt="Sample image" >
-                </a>
-              </figure>
-            </div>
-            <div class="wrapper pad_bot1">
-              <figure class="left marg_right2">
-                <a href="images/our_work/10.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Уборка после ремонта">
-                  <img src="images/our_work/10.JPG" width="88" alt="Sample image" >
-                </a>
-                <a href="images/our_work/11.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Химчистка салона">
-                  <img src="images/our_work/11.JPG" width="88" alt="Sample image" >
-                </a>
-                <a href="images/our_work/12.JPG" rel="1" onclick="return jsiBoxOpen(this)" title="Химчистка мягкой мебели">
-                  <img src="images/our_work/12.JPG" width="88" alt="Sample image" >
-                </a>
-              </figure>
-            </div>
+            <form action="/fastAnswer.form" class="css3Form" method="post">
+              <div id="text3">Заказать</div>
+              <ul>
+                <li><input type="text" name="name" value="Ваше имя..."/></li>
+                <li><input type="text" name="phone" value="Телефон..."/></li>
+                <li><textarea name="message" rows="5">Пример1: Необходимо сделать генеральную (послестроительную) уборку двух комнатной квартиры 61 кв.м. Пример2: Необходимо сделать химчистку (аква чистку) трехместного дивана белого цвета.
+                                </textarea></li>
+              </ul>
+              <input type="submit" class="button" value="Отправить" />
+            </form>
           </article>
         </div>
       </section>
@@ -146,8 +125,8 @@
   <div class="main">
     <!-- footer -->
     <footer>
-      <a href="mailto:Alexis220382@gmail.com">Alexis220382@gmail.com</a><br />
-      Minsk Belarus 2015
+      Copyright © 2015, Crystal Clean, Все права защищены.<br />
+      <a href="mailto:Alexis220382@gmail.com">Alexis220382@gmail.com</a> разработчик сайта.
     </footer>
     <!-- / footer -->
   </div>
